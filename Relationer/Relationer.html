@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Formarterar dokumentet -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!-- Importera JS -->
+<link rel="stylesheet" href="stylerelationer.css">
+<!-- Importera Scripts -->
+<script src="../scripts.js"></script>
+<title>Par i svar - Relationer</title>
+</head>
+
+<body>
+	<h>PAR I SVAR - RELATIONER</h>
+	
+	<br>
+	<br>
+	
+	<button id="startsida" type="button" class="button" onclick="document.location='../index.html'">Startsida</button>
+	<button id="fråga" type="button" class="button" style="background-color: #9AE48B" onclick="FrågaRelationerFunc()">Ny Fråga</button>
+	
+	<br>
+	<div class="border">
+	<h1>Fråge Typ:</h1>
+	<p id="frågetyptext"></p>
+	</div>
+	
+	<div class="border">
+	<h1>Kategori:</h1>
+	<p id="kategoritext"></p>
+	</div>
+	
+	<div class="border">
+	<h1>Fråga:</h1>
+	<p id="frågetext"></p>
+	</div>
+	
+	<button id="ny fråga" type="button" class="button" style="background-color: #FF8D35" onclick="NyFrågaRelationerFunc()">Fått frågan tidigare? Slumpa ny!</button>
+</body>
+</html>
