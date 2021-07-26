@@ -91,6 +91,11 @@ const vadÄrPersonlighet = [
 
 const vadÄrBlandat = [
 "I vilken påhittad värld skulle RÖD vilja leva i?",
+"I vilken påhittad värld skulle BLÅ vilja leva i?",
+"Vad lugnar ner RÖD?",
+"Vad lugnar ner BLÅ?",
+"Vad är RÖDS favorit bilmärke?",
+"Vad är BLÅS favorit bilmärke?"
 ];
 
 //Kombinerar alla katigorier i Vad Är? till en Array
@@ -109,29 +114,55 @@ const vemÄrIntimt = [
 "Vem kramas bäst?",
 "Vem sa ''Jag älskar dig'' först ?",
 "Vem tänker mest på sex?",
-"Vem är snyggast naken?"
+"Vem är snyggast naken?",
+"Vem är mest troligt att kolla på porr när de vaknar?",
+"Vem är mest troligt att vilja ha en trekant?",
+"Vem blir tröttast under sex?",
+"Vem har den konstigaste kinken?"
 ];
 
 const vemÄrNöjen = [
 "Vem är mest musikalisk?",
-"Vem kollar på mest film?"
-
+"Vem kollar på mest film?",
+"Vem har bäst musiksmak?",
+"Vem läser mest böcker?",
+"Vem spelar mest datorspel?",
+"Vem kollar mest på serier"?,
+"Vem är mest sportig?",
+"Vem har störst chans att lyssna på klassisk musik?",
+"Vem går till museum oftast?",
+"Vem är mest troligt att gråta till en ledsen film?",
+"Vem är mest troligt att inte äga en dator?",
+"Vem använder internet mest?",
+"Vem skulle inte överleva utan internet?",
+"Vem kan rita bäst?",
+"Vem gillar att resa mest?",
+"Vem är mest troligt att resa runt världen?"
 ];
 
 const vemÄrJobbHem = [
 "Vem föredrar att resa?",
 "Vem stökar ner mest?",
 "Vem gör mest hemmasysslor?",
-"Vem slösar mest pengar?"
-
+"Vem slösar mest pengar?",
+"Vem är mest troligt att att blir rik?",
+"Vem är mest troligt att att bli pank?",
+"Vem vill mest bli/vara storstadsbo?",
+"Vem är mest troligt att ha två jobb samtidigt?",
+"Vem skulle kunna bli en komiker?",
+"Vem är mest troligt att bli en super model?",
+"Vem är bäst på att laga mat?",
+"Vem lagar mest mat?"
 ];
 
 const vemÄrDåtidFramtid = [
-"Vem hade best uppväxt?",
+"Vem hade bäst uppväxt?",
 "Vem var jobbigast som barn?",
 "Vem har störst planer?",
-"Vem har störst chans att bli rik?"
-
+"Vem har störst chans att bli rik?",
+"Vem är mest troligt att gå med i militären?",
+"Vem kommer åka på flest resor i framtiden?",
+"Vem är mest troligt att vilja adoptera ett barn?"
 ];
 
 const vemÄrPersonlighet = [
@@ -143,8 +174,18 @@ const vemÄrPersonlighet = [
 "Vem är klantigast?",
 "Vem stressar mest?",
 "Vem är nördigast?",
-"Vem blir lättare irriterad?"
-
+"Vem blir lättare irriterad?",
+"Vem är mest drama queen?",
+"Vem är lyckligast?",
+"Vem gör mest konstiga grejer offentligt?",
+"Vem har mest konstiga fobier?",
+"Vem är mest troligt att skämma ut sig själv bland folk?",
+"Vem är mest troligt att prata med djur?",
+"Vem oroar sig mest över smågrejer?",
+"Vem kollar på mest romantiska filmer?",
+"Vem är mest troligt att vara i en kör?",
+"Vem är bäst på att lära ut?",
+"Vem är mest troligt att gå på en Justin Bieber concert?"
 ];
 
 const vemÄrBlandat = [
@@ -155,8 +196,43 @@ const vemÄrBlandat = [
 "Vem dansar mest?",
 "Vems föräldrar hade vunnit i ett slagsmål mot varandra?",
 "Vem litar minst på andra människor?",
-"Vem kör snabbast?"
-
+"Vem kör snabbast?",
+"Vem är bäst på matte?",
+"Vem är mest troligt att ge alla sina pengar till välgörenhet?",
+"Vem är mest troligt att bli känd?",
+"Vem kan hålla andan längst?",
+"Vem kommer skaffa mest piercings under sitt liv?",
+"Vem är mest troligt att vinna ett nobelpris?",
+"Vem är mest troligt att råka döda någon?",
+"Vem är mest troligt att dö på ett dumt sätt?",
+"Vem skulle vinna i ett slagsmål?",
+"Vem är mest troligt att hamna i ett slagsmål?",
+"Vem är mest troligt att misslyckas med lätta uppgifter?",
+"Vem är mest troligt att slå hål i en vägg?",
+"Vem är mest troligt att se ett spöke?",
+"Vem är mest troligt att bli arresterad för att gå runt naken?",
+"Vem är mest troligt att somna på en lektion?",
+"Vem är mest troligt att äta med öppen mun?",
+"Vem är mest troligt att vara i två relationer samtidigt?",
+"Vem skulle dö först i en zombieapokalyps?",
+"Vem är mest troligt att hoppa fallskärm?",
+"Vem är mest troligt att hoppa bungyjump?",
+"Vem är mest troligt att ta droger?",
+"Vem har roligast pappa?",
+"Vem har roligast mamma?",
+"Vem är mest troligt att vinna på lotto?",
+"Vem är mest troligt att ta över världen?",
+"Vem är mest troligt att vinna en olympisk medalj?",
+"Vem är mest troligt att vinna en Oscar?",
+"Vem är mest troligt att bryta ett världsrekord?",
+"Vem är mest troligt att uppfinna något användbart?",
+"Vem är mest troligt att uppfinna något oanvändbart?",
+"Vem är mest troligt att vara med i en reklamfilm?",
+"Vem är mest troligt att bli statsminister?",
+"Vem skulle skriva den bästa skräckboken?",
+"Vem skulle skriva den bästa kokboken?",
+"Vem är mest troligt att orsaka ett världskrig?",
+"Vem är mest troligt att inte duscha på en vecka?"
 ];
 
 //Kombinerar alla katigorier i Vem Är? till en Array
