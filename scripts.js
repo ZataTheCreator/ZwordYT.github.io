@@ -99,7 +99,7 @@ const vadÄrBlandat = [
 ];
 
 //Kombinerar alla katigorier i Vad Är? till en Array
-const allaVadÄr = [...vadÄrIntimt, ...vadÄrNöjen, ...vadÄrJobbHem, ...vadÄrDåtidFramtid, ...vadÄrPersonlighet, ...vadÄrBlandat]
+const allaVadÄr = [...vadÄrIntimt, ...vadÄrNöjen, ...vadÄrJobbHem, ...vadÄrDåtidFramtid, ...vadÄrPersonlighet, ...vadÄrBlandat];
 
 
 const vemÄrIntimt = [
@@ -127,7 +127,7 @@ const vemÄrNöjen = [
 "Vem har bäst musiksmak?",
 "Vem läser mest böcker?",
 "Vem spelar mest datorspel?",
-"Vem kollar mest på serier"?,
+"Vem kollar mest på serier?",
 "Vem är mest sportig?",
 "Vem har störst chans att lyssna på klassisk musik?",
 "Vem går till museum oftast?",
@@ -236,7 +236,7 @@ const vemÄrBlandat = [
 ];
 
 //Kombinerar alla katigorier i Vem Är? till en Array
-const allaVemÄr = [...vemÄrIntimt, ...vemÄrNöjen, ...vemÄrJobbHem, ...vemÄrDåtidFramtid, ...vemÄrPersonlighet, ...vemÄrBlandat]
+const allaVemÄr = [...vemÄrIntimt, ...vemÄrNöjen, ...vemÄrJobbHem, ...vemÄrDåtidFramtid, ...vemÄrPersonlighet, ...vemÄrBlandat];
 
 
 function FrågaRelationerFunc() {
