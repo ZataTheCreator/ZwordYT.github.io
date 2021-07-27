@@ -98,8 +98,22 @@ const vadÄrBlandat = [
 "Vad är BLÅS favorit bilmärke?"
 ];
 
+const vadÄrBarn = [
+"Vad är RÖDS favoritfärg?",
+"Vad är BLÅS favoritfärg?",
+"Vad är RÖDS favoritdjur?",
+"Vad är BLÅS favoritdjur?",
+"Vad är RÖDS favoritmat?",
+"Vad är BLÅS favoritmat?",
+"Vad är RÖDS favorit glass smak?",
+"Vad är BLÅS favorit glass smak?",
+"Vad är RÖDS favoritfrukt?",
+"Vad är BLÅS favoritfrukt?",
+"Vad är RÖDS favoritgrönsak?",
+"Vad är BLÅS favoritgrönsak?"];
+
 //Kombinerar alla katigorier i Vad Är? till en Array
-const allaVadÄr = [...vadÄrIntimt, ...vadÄrNöjen, ...vadÄrJobbHem, ...vadÄrDåtidFramtid, ...vadÄrPersonlighet, ...vadÄrBlandat];
+const allaVadÄr = [...vadÄrIntimt, ...vadÄrNöjen, ...vadÄrJobbHem, ...vadÄrDåtidFramtid, ...vadÄrPersonlighet, ...vadÄrBlandat, ...vadÄrBarn];
 
 
 const vemÄrIntimt = [
@@ -499,4 +513,11 @@ function NyFrågaAllaFunc() {
 	}
 	
 	
+}
+
+
+function FrågaBarnFunc() {
+	
+			var frågaNr=Math.floor(Math.random() * vadÄrBarn.length);
+			document.getElementById("frågetext").innerHTML = vadÄrBarn[frågaNr];
 }
